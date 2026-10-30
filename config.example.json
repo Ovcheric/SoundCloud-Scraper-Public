@@ -1,0 +1,7 @@
+{
+  "client_id": "YOUR_SOUNDCLOUD_CLIENT_ID",
+  "client_secret": "YOUR_SOUNDCLOUD_CLIENT_SECRET",
+  "access_token": "",
+  "refresh_token": "",
+  "expires_at": 0
+}

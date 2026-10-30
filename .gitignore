@@ -1,0 +1,30 @@
+# ─── Secrets ──────────────────────────────────────────────────────────────────
+# Holds client_secret, access_token, refresh_token. NEVER commit.
+# See config.example.json for the expected shape.
+config.json
+
+# ─── Python ───────────────────────────────────────────────────────────────────
+.venv/
+__pycache__/
+*.py[cod]
+
+# ─── Your data — personal, never published ────────────────────────────────────
+# discovery.db holds your library and listening history. It cannot be rebuilt,
+# so back it up - but never into a public repository. See README.md.
+discovery.db
+discovery.db-journal
+
+# ─── Generated — regenerable, high churn ──────────────────────────────────────
+*.log
+crash.log
+.pytest_cache/
+
+# ─── Manual backups — git replaces these ──────────────────────────────────────
+*.bak
+
+# ─── OS / editor ──────────────────────────────────────────────────────────────
+desktop.ini
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
